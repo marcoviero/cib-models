@@ -1,0 +1,18 @@
+[project]
+name = "cib-models"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "astropy>=7.2.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "scipy>=1.16.3",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]
